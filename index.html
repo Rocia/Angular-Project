@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html ng-app="Demo"> 
+<head>     
+<title></title>     
+<script src="Scripts/angular.min.js"></script>     
+<script src="Scripts/script.js"></script>     
+<link href="css/Styles.css" rel="stylesheet" /> 
+<link href="css/bootstrap.min.css" rel="stylesheet" /> 
+
+</head> 
+<body ng-app="myModule">     
+
+<table style="font-family: Arial" class = "table">         
+<tr>             
+<td colspan="2" class="header">                 
+<h1>                     
+WebSite Header                 
+</h1>             
+</td>         
+</tr>         
+<tr> 
+<td class="body">  
+<div class="container" style = "width: 500px">
+  <h2>User Form</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter name" ng-model="name" name="name">
+    </div>
+	<div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" ng-model="email" name="email">
+    </div>
+	<div class="form-group">
+      <label for="contact">Contact:</label>
+      <input type="email" class="form-control" id="contact" placeholder="Enter contact number" ng-model="contact" name="contact">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" ng-model="password" name="pwd">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>   
+</td>      
+</tr>         
+<td colspan="2" class="footer">                 
+<b>Website Footer</b>             
+</td>         
+</tr>     
+</table> 
+</body> 
+</html> 
